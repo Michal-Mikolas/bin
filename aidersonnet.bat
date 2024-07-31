@@ -1,1 +1,1 @@
-aider --model openrouter/anthropic/claude-3.5-sonnet --edit-format diff --weak-model openrouter/meta-llama/llama-3.1-8b-instruct %*
+aider --model openrouter/anthropic/claude-3.5-sonnet --model-settings-file ~/bin/.aider.model.settings.yml --model-metadata-file ~/bin/.aider.model.metadata.json %*

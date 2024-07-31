@@ -1,0 +1,35 @@
+- name: "openrouter/openai/gpt-4o"
+  edit_format: "diff"
+  weak_model_name: "openrouter/meta-llama/llama-3.1-8b-instruct"
+  use_repo_map: true
+  send_undo_reply: true
+  accepts_images: true
+  lazy: true
+  reminder_as_sys_msg: true
+  input_cost_per_token:
+
+- name: "openrouter/anthropic/claude-3.5-sonnet"
+  edit_format: "diff"
+  weak_model_name: "openrouter/meta-llama/llama-3.1-8b-instruct"
+  use_repo_map: true
+  accepts_images: true
+  examples_as_sys_msg: true
+  can_prefill: true
+
+- name: "openrouter/deepseek/deepseek-coder"
+  edit_format: "diff"
+  weak_model_name: "openrouter/meta-llama/llama-3.1-8b-instruct"
+  use_repo_map: true
+  send_undo_reply: true
+  reminder_as_sys_msg: true
+  examples_as_sys_msg: true
+
+- name: "openrouter/meta-llama/llama-3.1-8b-instruct"
+  edit_format: "diff"
+  weak_model_name: "openrouter/meta-llama/llama-3.1-8b-instruct"
+  use_repo_map: false
+  send_undo_reply: false
+  accepts_images: false
+  lazy: false
+  reminder_as_sys_msg: true
+  examples_as_sys_msg: true

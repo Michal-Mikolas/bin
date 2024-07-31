@@ -1,1 +1,1 @@
-aider --model openrouter/deepseek/deepseek-coder --edit-format diff --weak-model openrouter/meta-llama/llama-3.1-8b-instruct %*
+aider --model openrouter/deepseek/deepseek-coder --model-settings-file ~/bin/.aider.model.settings.yml --model-metadata-file ~/bin/.aider.model.metadata.json %*

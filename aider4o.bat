@@ -1,1 +1,1 @@
-aider --model openrouter/openai/gpt-4o --edit-format diff --weak-model openrouter/meta-llama/llama-3.1-8b-instruct %*
+aider --model openrouter/openai/gpt-4o --model-settings-file ~/bin/.aider.model.settings.yml --model-metadata-file ~/bin/.aider.model.metadata.json %*
