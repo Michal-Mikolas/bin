@@ -1,1 +1,1 @@
-aider --model openrouter/openai/gpt-4o --model-settings-file ~/bin/.aider.model.settings.yml --model-metadata-file ~/bin/.aider.model.metadata.json --weak-model openrouter/meta-llama/llama-3.2-11b-vision-instruct --no-git --cache-prompts --no-stream --cache-keepalive-pings 5 %*
+aider --model openrouter/openai/gpt-4o --model-settings-file ~/bin/.aider.model.settings.yml --model-metadata-file ~/bin/.aider.model.metadata.json --weak-model openrouter/meta-llama/llama-3.2-11b-vision-instruct --no-git --cache-prompts --cache-keepalive-pings 3 --analytics %*
