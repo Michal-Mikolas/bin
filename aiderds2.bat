@@ -1,1 +1,2 @@
-aider --model openrouter/deepseek/deepseek-coder --model-settings-file ~/bin/.aider.model.settings.yml --model-metadata-file ~/bin/.aider.model.metadata.json --no-git --cache-prompts --cache-keepalive-pings 3 --analytics %*
+cd %CD%
+aider --model openrouter/deepseek/deepseek-chat --model-settings-file %USERPROFILE%/bin/.aider.model.settings.yml --model-metadata-file %USERPROFILE%/bin/.aider.model.metadata.json --no-git --watch-files --cache-prompts --cache-keepalive-pings 3 --analytics --file readme.md %*
