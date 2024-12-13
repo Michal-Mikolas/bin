@@ -12,9 +12,9 @@
         "supports_vision": true
     },
     "github/gpt-4o": {
-        "max_tokens": 16384,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 16384,
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 4000,
         "input_cost_per_token": 0.000000,
         "output_cost_per_token": 0.000000,
         "litellm_provider": "github",
@@ -38,9 +38,9 @@
         "supports_prompt_caching": true
     },
     "github/gpt-4o-mini": {
-        "max_tokens": 16384,
-        "max_input_tokens": 128000,
-        "max_output_tokens": 16384,
+        "max_tokens": 8000,
+        "max_input_tokens": 8000,
+        "max_output_tokens": 4000,
         "input_cost_per_token": 0.00000015,
         "output_cost_per_token": 0.00000060,
         "cache_read_input_token_cost": 0.000000075,
