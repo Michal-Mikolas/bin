@@ -65,3 +65,11 @@
   send_undo_reply: true
   reminder: false
   examples_as_sys_msg: true
+
+- name: "gemini/gemini-2.0-flash-exp"
+  edit_format: "diff"
+  weak_model_name: "gemini/gemini-2.0-flash-exp"
+  use_repo_map: true
+  send_undo_reply: true
+  reminder: false
+  examples_as_sys_msg: true
